@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230724 20:38:52.723" rpa="false" schemaversion="4">
+<suite id="s1" name="CheckBox" source="C:\Users\mb_la\OneDrive\Área de Trabalho\RobotFramework\CheckBox\CheckBox.robot">
+<test id="s1-t1" name="CT01: Entrar no site itera e marcar os checkbox" line="17">
+<kw name="Abrir site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://itera-qa.azurewebsites.net/home/automation</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230724 20:38:52.937" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
+<status status="PASS" starttime="20230724 20:38:52.936" endtime="20230724 20:38:57.743"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230724 20:38:59.243" level="INFO">Slept 1 second 500 milliseconds</msg>
+<status status="PASS" starttime="20230724 20:38:57.743" endtime="20230724 20:38:59.243"/>
+</kw>
+<status status="PASS" starttime="20230724 20:38:52.936" endtime="20230724 20:38:59.243"/>
+</kw>
+<kw name="Marcar checkbok">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${input_female}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230724 20:38:59.244" endtime="20230724 20:38:59.287"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${input_female}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230724 20:38:59.288" level="INFO">Clicking element '//input[@id="female"]'.</msg>
+<status status="PASS" starttime="20230724 20:38:59.287" endtime="20230724 20:38:59.370"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230724 20:39:00.870" level="INFO">Slept 1 second 500 milliseconds</msg>
+<status status="PASS" starttime="20230724 20:38:59.370" endtime="20230724 20:39:00.870"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${input_male}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230724 20:39:00.870" endtime="20230724 20:39:00.897"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${input_male}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230724 20:39:00.897" level="INFO">Clicking element '//input[@id="male"]'.</msg>
+<status status="PASS" starttime="20230724 20:39:00.897" endtime="20230724 20:39:00.945"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1.7s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230724 20:39:02.645" level="INFO">Slept 1 second 700 milliseconds</msg>
+<status status="PASS" starttime="20230724 20:39:00.945" endtime="20230724 20:39:02.645"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${input_monday}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230724 20:39:02.645" endtime="20230724 20:39:02.671"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${input_monday}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230724 20:39:02.672" level="INFO">Clicking element '//input[@id="monday"]'.</msg>
+<status status="PASS" starttime="20230724 20:39:02.671" endtime="20230724 20:39:02.721"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230724 20:39:04.221" level="INFO">Slept 1 second 500 milliseconds</msg>
+<status status="PASS" starttime="20230724 20:39:02.721" endtime="20230724 20:39:04.221"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${input_Wednesday}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230724 20:39:04.221" endtime="20230724 20:39:04.247"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${input_Wednesday}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230724 20:39:04.247" level="INFO">Clicking element '//input[@id="wednesday"]'.</msg>
+<status status="PASS" starttime="20230724 20:39:04.247" endtime="20230724 20:39:04.297"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230724 20:39:05.798" level="INFO">Slept 1 second 500 milliseconds</msg>
+<status status="PASS" starttime="20230724 20:39:04.298" endtime="20230724 20:39:05.798"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${input_friday}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230724 20:39:05.799" endtime="20230724 20:39:05.837"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${input_friday}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230724 20:39:05.837" level="INFO">Clicking element '//input[@id="friday"]'.</msg>
+<status status="PASS" starttime="20230724 20:39:05.837" endtime="20230724 20:39:05.886"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1.5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230724 20:39:07.386" level="INFO">Slept 1 second 500 milliseconds</msg>
+<status status="PASS" starttime="20230724 20:39:05.886" endtime="20230724 20:39:07.386"/>
+</kw>
+<status status="PASS" starttime="20230724 20:38:59.244" endtime="20230724 20:39:07.386"/>
+</kw>
+<kw name="Fechar Browser">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230724 20:39:07.387" endtime="20230724 20:39:09.545"/>
+</kw>
+<status status="PASS" starttime="20230724 20:39:07.387" endtime="20230724 20:39:09.545"/>
+</kw>
+<status status="PASS" starttime="20230724 20:38:52.935" endtime="20230724 20:39:09.547"/>
+</test>
+<doc>Marcar CheckBox com teste automatizado</doc>
+<status status="PASS" starttime="20230724 20:38:52.725" endtime="20230724 20:39:09.550"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="CheckBox">CheckBox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

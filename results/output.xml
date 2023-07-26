@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230725 08:43:58.749" rpa="false" schemaversion="4">
+<suite id="s1" name="RobotFramework" source="C:\Users\mb_la\OneDrive\Área de Trabalho\RobotFramework">
+<suite id="s1-s1" name="Itera" source="C:\Users\mb_la\OneDrive\Área de Trabalho\RobotFramework\Itera">
+<suite id="s1-s1-s1" name="Upload" source="C:\Users\mb_la\OneDrive\Área de Trabalho\RobotFramework\Itera\Upload">
+<suite id="s1-s1-s1-s1" name="Uploads" source="C:\Users\mb_la\OneDrive\Área de Trabalho\RobotFramework\Itera\Upload\uploads.robot">
+<test id="s1-s1-s1-s1-t1" name="CT01: Fazendo um upload de uns arquivos de um pc" line="26">
+<kw name="Abrir site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://itera-qa.azurewebsites.net/home/automation</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230725 08:43:59.088" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
+<status status="PASS" starttime="20230725 08:43:59.087" endtime="20230725 08:44:04.039"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>6.0s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230725 08:44:10.039" level="INFO">Slept 6 seconds</msg>
+<status status="PASS" starttime="20230725 08:44:04.039" endtime="20230725 08:44:10.039"/>
+</kw>
+<status status="PASS" starttime="20230725 08:43:59.086" endtime="20230725 08:44:10.040"/>
+</kw>
+<kw name="Carregar arquivos pessoais">
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${upload_arquivo}</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20230725 08:44:10.042" endtime="20230725 08:44:10.080"/>
+</kw>
+<status status="PASS" starttime="20230725 08:44:10.041" endtime="20230725 08:44:10.080"/>
+</kw>
+<kw name="Fechar Browser">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230725 08:44:10.081" endtime="20230725 08:44:12.345"/>
+</kw>
+<status status="PASS" starttime="20230725 08:44:10.081" endtime="20230725 08:44:12.346"/>
+</kw>
+<status status="PASS" starttime="20230725 08:43:59.084" endtime="20230725 08:44:12.346"/>
+</test>
+<doc>fazendo uns upload de uns arquivos do PC</doc>
+<status status="PASS" starttime="20230725 08:43:58.804" endtime="20230725 08:44:12.349"/>
+</suite>
+<status status="PASS" starttime="20230725 08:43:58.799" endtime="20230725 08:44:12.353"/>
+</suite>
+<status status="PASS" starttime="20230725 08:43:58.795" endtime="20230725 08:44:12.356"/>
+</suite>
+<status status="PASS" starttime="20230725 08:43:58.756" endtime="20230725 08:44:12.361"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RobotFramework">RobotFramework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Itera">RobotFramework.Itera</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Upload">RobotFramework.Itera.Upload</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Uploads">RobotFramework.Itera.Upload.Uploads</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
