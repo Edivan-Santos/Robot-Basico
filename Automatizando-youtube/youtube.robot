@@ -2,6 +2,19 @@
 Library       SeleniumLibrary
 
 *** Variables ***
+${NOME_MUSICA}        Numb (Official Music Video) [4K UPGRADE] – Linkin Park
+
+#Dados
+${URL}        https://www.youtube.com/
+${BROWSER}    chrome
+
+${Barra_de_pesquisa}        //input[@id="search"]    
+${botao_pesquisa}        //button[@id="search-icon-legacy"]
+
+# Garantindo que vamos pegar o primeiro vídeo da lista da reprodução
+${pegando_primeiro_vidio}       (//yt-formatted-string[@class="style-scope ytd-video-renderer"])[1]
+${prova}         //ytm-button-renderer[@class="slim_video_action_bar_renderer_button icon-share_arrow"]
+
 
 *** Keywords ***
 
