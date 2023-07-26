@@ -35,7 +35,8 @@
 3 - Baixa a o arquivo em formato .ZIP de acordo com seu sistema operacional como a imagem mostra ![Alt text](image-1.png)
 4 - Após fazer o Download desconpact o arquivo.zip, porque vamos precisar dele mais a frente. A imagem mostra de como vai ficar o arquivo desconpactado!![Alt text](image-3.png)
 5 - Copie o o arquivo chromeDrive.exe
-6 Agora precisamos ir na pasta PATH onde está instalado o python. Geralmente ele está em um diretório parecido com esse: ( C:\Users\mb_la\AppData\Local\Programs\Python\Python311\Scripts\ ). Só mudem o nome de usuário para o usuário de vcs, na imagem vai mostrar mais ou menos de como vai ficar depois que você colar o arquivo do chromeDraive desconpactado![Alt text](image-6.png).
+6 Agora precisamos ir na pasta PATH onde está instalado o python. Geralmente ele está em um diretório parecido com esse: ( C:\Users\mb_la\AppData\Local\Programs\Python\Python311\Scripts\ ). Só mudem o nome de usuário para o usuário de vcs, na imagem vai mostrar mais ou menos de como vai ficar depois que você colar o arquivo do chromeDraive descompactado![Alt text](image-6.png)
+
 
 *** Como automatizar o 'Formulário de prática' com o Selenium WebDriver ***
 
